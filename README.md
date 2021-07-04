@@ -21,8 +21,9 @@ Ich bin Jellef aus Deutschland und lerne Wirtschaftsinformatik in Heidelberg. Ic
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/icloud.svg' alt='website' height='40'>](https://jellefabbenseth.github.io/JellefAbbenseth.html/) 
 
 ## Examples of work
-[<img src="https://github.com/JellefAbbenseth/GrowthV2/blob/main/Dokumentation/Bilder/Startbildschirm_ohneSpielstand.jpg" height="350" />](https://github.com/JellefAbbenseth/GrowthV2)
-[<img src="https://github.com/JellefAbbenseth/Growth/blob/main/Dokumentation/Bilder/PlayingGame.jpg" height="350" />](https://github.com/JellefAbbenseth/Growth)
+[<img src="https://github.com/JellefAbbenseth/GrowthV2/blob/main/Dokumentation/Bilder/Startbildschirm_ohneSpielstand.jpg" height="260" />](https://github.com/JellefAbbenseth/GrowthV2)
+[<img src="https://github.com/JellefAbbenseth/Growth/blob/main/Dokumentation/Bilder/PlayingGame.jpg" height="260" />](https://github.com/JellefAbbenseth/Growth)
+[<img src="https://github.com/JellefAbbenseth/JellefAbbenseth.html/blob/main/pictures/website_mainpage.jpg" height="260" />](https://github.com/JellefAbbenseth/JellefAbbenseth.html)
 
 ## Overview
 [![Anurag's_github_stats](https://github-readme-stats.vercel.app/api?username=JellefAbbenseth)](https://github.com/anuraghazra/github-readme-stats)
