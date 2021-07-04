@@ -18,7 +18,7 @@ Ich bin Jellef aus Deutschland und lerne Wirtschaftsinformatik in Heidelberg. Ic
 ## Connect with me
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/jellef-abbenseth-7ab1a3216/)
 [<img src='https://cdn.onlinewebfonts.com/svg/img_134022.png' alt='xing' height='40'>](https://www.xing.com/profile/Jellef_Abbenseth)
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/icloud.svg' alt='website' height='40'>](https://shad6owh4rd.github.io/Shad6owh4rd.html/) 
+[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/icloud.svg' alt='website' height='40'>](https://jellefabbenseth.github.io/JellefAbbenseth.html/) 
 
 ## Examples of work
 [<img src="https://github.com/Shad6owh4rd/GrowthV2/blob/main/Dokumentation/Bilder/Startbildschirm_ohneSpielstand.jpg" height="350" />](https://github.com/Shad6owh4rd/GrowthV2)
