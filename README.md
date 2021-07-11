@@ -3,13 +3,6 @@
 I'm Jellef from Germany, and I'm studying information systems in Heidelberg. I really enjoy learning languages like Python and Java.
 
 
-
-# Hallo 👋
-
-Ich bin Jellef aus Deutschland und lerne Wirtschaftsinformatik in Heidelberg. Ich genieße das Lernen von Sprachen wie Python und Java.
-
-
-
 ## Skills and experience
 * 🐍 Python
 * <img src= "https://emoji.gg/assets/emoji/java.png" width = 25> Java
