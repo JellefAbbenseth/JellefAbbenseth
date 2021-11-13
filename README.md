@@ -14,6 +14,7 @@ I'm Jellef from Germany, and I'm studying information systems in Heidelberg. I r
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/icloud.svg' alt='website' height='40'>](https://jellefabbenseth.github.io/JellefAbbenseth.html/) 
 
 ## Examples of work
+[<img src="https://github.com/JellefAbbenseth/JellefAbbenseth.html/blob/main/pictures/Home_User.jpg" height="200" />](https://github.com/JellefAbbenseth/schoolProject)
 [<img src="https://github.com/JellefAbbenseth/GrowthV2/blob/main/Dokumentation/Bilder/Startbildschirm_ohneSpielstand.jpg" height="200" />](https://github.com/JellefAbbenseth/GrowthV2)
 [<img src="https://github.com/JellefAbbenseth/Growth/blob/main/Dokumentation/Bilder/PlayingGame.jpg" height="200" />](https://github.com/JellefAbbenseth/Growth)
 [<img src="https://github.com/JellefAbbenseth/JellefAbbenseth.html/blob/main/pictures/website_mainpage.jpg" height="200" />](https://github.com/JellefAbbenseth/JellefAbbenseth.html)
