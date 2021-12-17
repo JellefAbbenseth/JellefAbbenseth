@@ -9,7 +9,7 @@ I'm Jellef from Germany, and I'm studying information systems in Heidelberg. I r
 * 💻 HTML, CSS
 
 ## Connect with me
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/jellef-abbenseth-7ab1a3216/)
+[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/jellef-abbenseth/)
 [<img src='https://cdn.onlinewebfonts.com/svg/img_134022.png' alt='xing' height='40'>](https://www.xing.com/profile/Jellef_Abbenseth)
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/icloud.svg' alt='website' height='40'>](https://jellefabbenseth.github.io/JellefAbbenseth.html/) 
 
