@@ -1,12 +1,12 @@
 # Hi there 👋
 
-I'm Jellef from Germany, and I'm studying information systems in Heidelberg. I really enjoy learning languages like Python and Java.
+I'm Jellef from Germany, and I'm studying information systems in Heidelberg and working as an intern full-stack-developer in Karlsruhe. I really enjoy learning languages like Python and Java.
 
 
 ## Skills and experience
 * 🐍 Python
 * <img src= "https://emoji.gg/assets/emoji/java.png" width = 25> Java
-* 💻 HTML, CSS
+* 💻 HTML, SCSS, Typescript
 
 ## Connect with me
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/jellef-abbenseth/)
