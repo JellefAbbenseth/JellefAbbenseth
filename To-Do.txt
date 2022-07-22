@@ -1,0 +1,29 @@
+Do-To-List:
+- planing the project
+  - goal
+  - mockup
+  - informations (Personal/Projects/...)
+  - style (minimal, few colors, ...)
+  - functions (sticky menu/burger menu, Foto slideshow, ...)
+  - sticky menu (important)
+      - chapters
+      - Languages
+      - small foto (in the top left corner)
+  - language flags (on hover over -> marking)
+  - links / pages
+  - steps (from 1 to last written on paper)
+  - use react (learn react, then use it for the project)
+  - GitHub react connection ?!
+- Add goal and Layout
+- Change picture during mouse hover / Slideshow
+- Add school project (choose a few good projects)
+- add the text for the different chapters
+- change the layout
+- change the teaser picture
+- Add/change examples of work
+- Add more pages?!
+  - for each example one page (Information and pictures)
+  - with more information about the projects (important informations)
+  - more pictures too (pictures from the project)
+  - small text (goal of the project, how it was, what i learned)
+- Teaser picture (create of different pictures, code, fotos of projects,...)

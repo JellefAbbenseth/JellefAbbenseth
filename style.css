@@ -1,0 +1,179 @@
+/*
+    Colors: https://www.farb-tabelle.de/de/farbtabelle.htm
+    azure (azure1 - #F0FFFF)
+    LightBlue (LightBlue1 - #BFEFFF)
+    blackblue (black with blue - #01010F)
+*/
+
+body {
+    background-color: #01010F;
+}
+
+header {
+    position: relative;
+    text-align: left;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+div#teaser {
+    position: relative;
+    z-index: 0;
+    text-align: center;
+    color: #F0FFFF;
+    min-height: 300px;
+    min-width: 500px;
+    max-height: 1080px;
+    width: 100%;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: left; 
+    position: absolute;
+    left: 1em;
+    top: 1em;
+}
+
+div#language {
+    position: absolute;
+    text-align: right;
+    top: 1em;
+    right: 2em;
+}
+
+div#teaser nav {
+    position: absolute;
+    z-index: 1;
+    text-align: left;
+    top: 8em;
+    left: 1em;
+}
+
+div#links {
+    display: inline-block;
+
+}
+
+#profile-image {
+    width: 30%;
+    max-width: 300px;
+    border-radius: 400px;
+}
+
+#example-image {
+    width: 90%;
+    max-width: 800px;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: #F0FFFF;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav {
+    width: 100%;
+    left: 0em;
+    display: flex;
+    flex-direction: row;
+    justify-self: flex-start;
+    align-items: center;
+}
+
+div#position_left {
+    color: #01010F;
+    background-color: #BFEFFF;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+div#position_right {
+    color: #01010F;
+    background-color: #F0FFFF;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+div#aboutMe {
+    min-width: 400px;
+    width: 50%;
+}
+
+div#examples_item {
+    min-width: 400px;
+    width: 48%;
+    align-items: center;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+}
+
+div article {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+div article p {
+    padding-bottom: 0.5em;
+    margin: 0;
+}
+
+h2 {
+    width: 100%;
+    margin-left: 0.25em;
+}
+
+footer {
+    background-color: #01010F;
+    color: #F0FFFF;
+}
+
+a#link_picture img {
+    background-color: #F0FFFF;
+    border-radius: 10em;
+    width: 50px;
+}
+
+@media screen and (max-width: 1000px){
+    .row {
+        flex-direction: column;
+    }
+
+    main {
+        min-width: 460px;
+        width: 100%;
+    }
+
+    div#teaser {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    div#position_left {
+        width: 100%;
+    }
+    
+    div#position_right {
+        width: 100%;
+    }
+
+    div#aboutMe {
+        width: 100%;
+    }
+    
+    div#examples_item {
+        width: 100%;
+    }
+}
