@@ -16,9 +16,9 @@ I'm Jellef from Germany, and I'm studying information systems in Heidelberg and 
 
 ## Examples of work
 [<img src="https://github.com/JellefAbbenseth/100DaysOfCode/blob/main/Pictures/Readme%20Teaser.jpg" height="200" />](https://github.com/JellefAbbenseth/100DaysOfCode)
-[<img src="https://github.com/JellefAbbenseth/JellefAbbenseth.html/blob/main/pictures/Home_User.jpg" height="200" />](https://github.com/JellefAbbenseth/schoolProject)
+[<img src="https://github.com/JellefAbbenseth/JellefAbbenseth/blob/main/pictures/Home_User.jpg" height="200" />](https://github.com/JellefAbbenseth/schoolProject)
 [<img src="https://github.com/JellefAbbenseth/GrowthV2/blob/main/Dokumentation/Bilder/Startbildschirm_ohneSpielstand.jpg" height="200" />](https://github.com/JellefAbbenseth/GrowthV2)
-[<img src="https://github.com/JellefAbbenseth/JellefAbbenseth.html/blob/main/pictures/website_mainpage.jpg" height="200" />](https://github.com/JellefAbbenseth/JellefAbbenseth.html)
+[<img src="https://github.com/JellefAbbenseth/JellefAbbenseth/blob/main/pictures/website_mainpage.jpg" height="200" />](https://jellefabbenseth.github.io/JellefAbbenseth/)
 
 ## Overview
 [![Anurag's_github_stats](https://github-readme-stats.vercel.app/api?username=JellefAbbenseth)](https://github.com/anuraghazra/github-readme-stats)
