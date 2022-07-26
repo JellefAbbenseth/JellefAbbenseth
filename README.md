@@ -12,7 +12,7 @@ I'm Jellef from Germany, and I'm studying information systems in Heidelberg and 
 
 [<img src='https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png' alt='linkedin' height='40'>](https://www.linkedin.com/in/jellef-abbenseth/)
 [<img src='https://zangano.de/wp-content/uploads/2019/05/xing-icon-logo-png-transparent-450x529.png' alt='xing' height='40'>](https://www.xing.com/profile/Jellef_Abbenseth)
-[<img src='https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/92-icloud-512.png' alt='website' height='40'>](https://jellefabbenseth.github.io/JellefAbbenseth.html/) 
+[<img src='https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/92-icloud-512.png' alt='website' height='40'>](https://jellefabbenseth.github.io/JellefAbbenseth/) 
 
 ## Examples of work
 [<img src="https://github.com/JellefAbbenseth/100DaysOfCode/blob/main/Pictures/Readme%20Teaser.jpg" height="200" />](https://github.com/JellefAbbenseth/100DaysOfCode)
