@@ -16,7 +16,24 @@
         background-color: var(--cold-color);
         border-radius: 20px;
         padding: 10px 40px 10px 40px;
-        margin-bottom: 5vh;
+        margin-bottom: 2vh;
+    }
+}
+
+.languages {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2vh;
+
+    a img {
+        margin: 0px 10px 0px 10px;
+        height: 30px;
+    }
+
+    a img:hover {
+        height: 40px;
     }
 }
 

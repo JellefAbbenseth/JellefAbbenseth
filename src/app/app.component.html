@@ -1,10 +1,14 @@
 <div class="main">
-  <h1>Hello! I'm Jellef. 👋</h1>
+  <h1>{{ title_text }}</h1>
+  <div class="languages">
+    <a (click)="onEng()"><img [src]=engImage alt="English" height="25"></a>
+    <a (click)="onGer()"><img [src]=gerImage alt="German" height="25"></a>
+  </div>
   <div class="nav">
     <ul>
-      <li class="linked">About me</li>
-      <li class="linked">Projects</li>
-      <li>Connect with me:</li>
+      <li class="linked">{{ about_text }}</li>
+      <li class="linked">{{ project_text }}</li>
+      <li>{{ contact_text }}</li>
     </ul>
     <div class="connect">
       <div class="contact">
