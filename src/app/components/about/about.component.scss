@@ -1,15 +1,12 @@
 .main {
     background-color: black;
 
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
     color: var(--navy-color);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
     h2 {
+        max-width: 350px;
         text-align: center;
         font-weight: bolder;
         font-size: 54px;
@@ -17,7 +14,90 @@
         border-bottom: 5px solid var(--black-color);
         background-color: var(--cold-color);
         border-radius: 20px;
-        padding: 10px 40px 10px 40px;
+        padding: 10px;
         margin-bottom: 2vh;
     }
+
+    .box {
+        border-top: 2.5px solid var(--black-color);
+        border-bottom: 2.5px solid var(--black-color);
+        background-color: var(--cold-color);
+        border-radius: 10px;
+        padding: 5px 20px 5px 20px;
+    }
 }
+
+.about_box {
+    max-width: 80vw;
+    padding: 5vh 20vw 5vh 20vw;
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    
+    .portrait {
+        margin: 1vh 0vw 1vh 5vw;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .portrait img {
+        width: 20vw;
+        max-width: 300px;
+        border-radius: 10px;
+    }
+}
+
+.toolkit_box {
+    max-width: 80vw;
+    padding: 0vh 20vw 0vh 20vw;
+
+    
+
+    .item_box {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: space-around;
+        align-items: center;
+
+        .item {
+            width: 200px;
+            text-align: center;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .main {
+        h2 {
+            max-width: 100vw;
+        }
+    }
+
+    .about_box {
+        max-width: 100vw;
+        padding: 5vh 10vw 5vh 10vw;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .portrait {
+            margin: 1vh 0vw 1vh 0vw;
+        }
+    
+        .portrait img {
+            min-width: 250px;
+        }
+    }
+
+    .toolkit_box {
+        max-width: 100vw;
+        padding: 0vh 10vw 0vh 10vw;
+    }
+} 

@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./about.component.scss']
 })
 export class AboutComponent{
+  portraitImg = "/assets/jellef_abbenseth.jpg"
   title_about = "About me 👩‍💻"
   title_toolkit = "My Toolkit 💻"
 }
