@@ -2,11 +2,12 @@
     <div class="nav_list">
         <ul>
             <li class="linked" routerLink="/">Home</li>
-            <li class="linked">Projects</li>
+            <li class="linked" routerLink="/about">{{ about_text }}</li>
+            <li class="linked" routerLink="/projects">{{ project_text }}</li>
         </ul>
     </div>
     <div class="languages">
-        <a><img [src]=engImage alt="English" height="25"></a>
-        <a><img [src]=gerImage alt="German" height="25"></a>
+        <a (click)="onEng()"><img [src]=engImage alt="English" height="25"></a>
+        <a (click)="onGer()"><img [src]=gerImage alt="German" height="25"></a>
     </div>
 </div>

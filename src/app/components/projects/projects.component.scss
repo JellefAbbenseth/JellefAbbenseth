@@ -1,0 +1,28 @@
+.main {
+    background-color: black;
+
+    min-height: 100vh;
+    width: 100vw;
+    color: var(--navy-color);
+
+    h2 {
+        max-width: 350px;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 54px;
+        border-top: 5px solid var(--black-color);
+        border-bottom: 5px solid var(--black-color);
+        background-color: var(--cold-color);
+        border-radius: 20px;
+        padding: 10px;
+        margin-bottom: 2vh;
+    }
+
+    .box {
+        border-top: 2.5px solid var(--black-color);
+        border-bottom: 2.5px solid var(--black-color);
+        background-color: var(--cold-color);
+        border-radius: 10px;
+        padding: 5px 20px 5px 20px;
+    }
+}

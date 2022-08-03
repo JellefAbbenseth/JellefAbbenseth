@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 
-interface Informations {
+interface NavigationInformation {
   title: string;
   about: string;
   project: string;
@@ -31,7 +31,7 @@ export class HomeComponent {
   contact_text = "Connect with me:"
 
   /* Texts like title and other things in dict for language switching */
-  texts_language: Record<string, Informations> = {
+  texts_language: Record<string, NavigationInformation> = {
     "eng": {
       title: "Hello! I'm Jellef. 👋", 
       about: "About me", 
