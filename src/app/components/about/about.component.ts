@@ -18,24 +18,23 @@ export class AboutComponent implements OnInit, DoCheck {
   portraitImg = "/assets/jellef_abbenseth.jpg"
   title_about = "About me"
   title_toolkit = "My Toolkit"
-  text_one = ""
-  text_two = ""
+  texts: string[] = []
 
   texts_language: Record<string, Information> = {
     "eng": {
       about: "About me",
       toolkit: "My Toolkit",
       texts: [
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem alias minima sint non. Molestias fugiat, pariatur unde dolorum beatae eaque ad quae eos voluptatem praesentium ipsum cum suscipit accusamus eum!",
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem alias minima sint non. Molestias fugiat, pariatur unde dolorum beatae eaque ad quae eos voluptatem praesentium ipsum cum suscipit accusamus eum!"
+        "Hello, I'm an aspiring junior developer and am going to graduate my studies of information systems in Heidelberg around mid september 2022. I'm currently enjoying my journey to be a professional developer through different private projects and my internship as a full-stack-developer in Karlsruhe.",
+        "Other than coding, I spend most of my free time learning chinese, meditating or staying in nature. I also like reading and meeting new people to broaden my knowledge, mind and to have a good time enjoying live."
       ]
     },
     "de": {
       about: "Über mich",
       toolkit: "Meine Toolbox",
       texts: [
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem alias minima sint non. Molestias fugiat, pariatur unde dolorum beatae eaque ad quae eos voluptatem praesentium ipsum cum suscipit accusamus eum!",
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem alias minima sint non. Molestias fugiat, pariatur unde dolorum beatae eaque ad quae eos voluptatem praesentium ipsum cum suscipit accusamus eum!"
+        "Hallo, Ich bin ein ergeiziger junior Entwickler und werde mitte September meine Ausbildung als Wirtschaftsinformatiker in Heidelberg abschließen. Derzeit genieße ich meine Reise zum professionellen Entwickler mit verschiedenen privaten Projekten und meinem Praktikum als Softwareentwickler in Karlsruhe.",
+        "Wenn ich nicht gerade programmiere, verbringe ich meine Freizeit mit chinesisch lernen, meditieren oder bin drausen in der Natur. Weiterhin lese und treffe ich gerne neue Menschen um mein Wissen und Horizont zu erweitern, und mein Leben zu genießen."
       ]
     }
   }
@@ -58,7 +57,6 @@ export class AboutComponent implements OnInit, DoCheck {
   setTexts() {
     this.title_about = this.texts_language[this.language]["about"]
     this.title_toolkit = this.texts_language[this.language]["toolkit"] 
-    this.text_one = this.texts_language[this.language]["texts"][0]
-    this.text_two = this.texts_language[this.language]["texts"][1]
+    this.texts = this.texts_language[this.language]["texts"]
   }
 }

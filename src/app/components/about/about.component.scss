@@ -6,7 +6,7 @@
     color: var(--navy-color);
 
     h2 {
-        max-width: 350px;
+        max-width: 450px;
         text-align: center;
         font-weight: bolder;
         font-size: 54px;
@@ -46,6 +46,10 @@
         width: 20vw;
         max-width: 300px;
         border-radius: 10px;
+    }
+
+    .content_box p {
+        padding: 10px 0px 10px 0px;
     }
 }
 
