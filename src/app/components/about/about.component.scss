@@ -15,7 +15,7 @@
         background-color: var(--cold-color);
         border-radius: 20px;
         padding: 10px;
-        margin-bottom: 2vh;
+        margin-bottom: 1vh;
     }
 
     .box {
@@ -29,7 +29,7 @@
 
 .about_box {
     max-width: 80vw;
-    padding: 5vh 20vw 5vh 20vw;
+    padding: 2vh 20vw 2vh 20vw;
 
     display: flex;
     flex-direction: row-reverse;
@@ -68,14 +68,33 @@
         align-items: center;
 
         .item {
-            width: 300px;
+            width: 250px;
             padding: 10px;
             text-align: center;
+            position: relative;
         }
 
         .item img {
-            height: 60px;
+            height: 50px;
             background: transparent;
+            z-index: 1;
+        }
+
+        .hidden {
+            font-size: 50px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            visibility: hidden;
+        }
+
+        .item:hover img {
+            height: 80px;
+        }
+
+        .item:hover .hidden {
+            visibility: visible;
         }
     }
 }
