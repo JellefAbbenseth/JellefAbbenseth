@@ -1,17 +1,72 @@
 <div class="main">
     <app-navigation></app-navigation>
     <div class="project_window">
-        <h2>Projects</h2>
-        <div class="project_box box">
-            <div class="item">Python</div>
-            <div class="item">Java</div>
-            <div class="item">Angular</div>
-            <div class="item">Python</div>
-            <div class="item">Java</div>
-            <div class="item">Angular</div>
-            <div class="item">Python</div>
-            <div class="item">Java</div>
-            <div class="item">Angular</div>
+        <h2>{{ title }}</h2>
+        <div class="project_box">
+            <div class="item box">
+                <div class="project_info hidden">
+                    <h3>School Project</h3>
+                    <p>A project, which was part of my curriculum.</p>
+                    <div class="languages">
+                        <p class="box">Python</p>
+                        <p class="box">Html</p>
+                        <p class="box">CSS</p>
+                        <p class="box">Flask</p>
+                        <p class="box">SQLite</p>
+                    </div>
+                    <div class="links">
+                        <a class="box" href="#">DETAILS</a>
+                        <a class="box" href="#">GITHUB</a>
+                    </div>
+                </div>
+                <img [src]=schoolProjectImage alt='School Project'>
+            </div>
+            <div class="item box">
+                <div class="project_info hidden">
+                    <h3>GrowthV2</h3>
+                    <p>A small text-based role-playing game with graphical user interface.</p>
+                    <div class="languages">
+                        <p class="box">Java</p>
+                        <p class="box">Swing</p>
+                    </div>
+                    <div class="links">
+                        <a class="box" href="#">DETAILS</a>
+                        <a class="box" href="#">GITHUB</a>
+                    </div>
+                </div>
+                <img [src]=growthV2Image alt='GrowthV2'>
+            </div>
+            <div class="item box">
+                <div class="project_info hidden">
+                    <h3>Growth</h3>
+                    <p>A small text-based role-playing game.</p>
+                    <div class="languages">
+                        <p class="box">Java</p>
+                    </div>
+                    <div class="links">
+                        <a class="box" href="#">DETAILS</a>
+                        <a class="box" href="#">GITHUB</a>
+                    </div>
+                </div>
+                <img [src]=growthImage alt='Growth'>
+            </div>
+            <div class="item box">
+                <div class="project_info hidden">
+                    <h3>Portfolio</h3>
+                    <p>My portfolio website, to give a small overview over my projects.</p>
+                    <div class="languages">
+                        <p class="box">Angular</p>
+                        <p class="box">Html</p>
+                        <p class="box">CSS</p>
+                        <p class="box">Typescript</p>
+                    </div>
+                    <div class="links">
+                        <a class="box" href="#">DETAILS</a>
+                        <a class="box" href="#">GITHUB</a>
+                    </div>
+                </div>
+                <img [src]=portfolioImage alt='Portfolio'>
+            </div>
         </div>
     </div>
 </div>
