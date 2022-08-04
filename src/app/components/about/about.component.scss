@@ -68,10 +68,14 @@
         align-items: center;
 
         .item {
-            width: 200px;
-            height: 30px;
+            width: 300px;
             padding: 10px;
             text-align: center;
+        }
+
+        .item img {
+            height: 60px;
+            background: transparent;
         }
     }
 }
