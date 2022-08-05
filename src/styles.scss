@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+body {
+    overflow-x: hidden; 
+}
+
 :root {
     /* Blue Theme: https://colorhunt.co/palette/081f375fc9f32e79ba1e549f */
     --black-color: #081F37;
