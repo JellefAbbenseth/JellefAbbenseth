@@ -4,13 +4,13 @@ I'm Jellef from Germany, and I'm studying information systems in Heidelberg and 
 
 
 ## Skills and experience
-* 🐍 Python
-* <img src= "https://emoji.gg/assets/emoji/java.png" width = 25> Java
-* 💻 HTML, SCSS, Typescript
+* <img src= "https://github.com/JellefAbbenseth/JellefAbbenseth/blob/main/src/assets/logos/python_logo.png" width = 25> Python
+* <img src= "https://github.com/JellefAbbenseth/JellefAbbenseth/blob/main/src/assets/logos/java_logo.png" width = 25> Java
+* <img src= "https://github.com/JellefAbbenseth/JellefAbbenseth/blob/main/src/assets/logos/angular_logo.png" width = 25>  Angular, HTML, SCSS, Typescript
 
 ## Connect with me
 
-[<img src='https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png' alt='linkedin' height='40'>](https://www.linkedin.com/in/jellef-abbenseth/)
+[<img src='https://github.com/JellefAbbenseth/JellefAbbenseth/blob/main/src/assets/logos/linkedin_logo.png' alt='linkedin' height='40'>](https://www.linkedin.com/in/jellef-abbenseth/)
 [<img src='https://zangano.de/wp-content/uploads/2019/05/xing-icon-logo-png-transparent-450x529.png' alt='xing' height='40'>](https://www.xing.com/profile/Jellef_Abbenseth)
 [<img src='https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/92-icloud-512.png' alt='website' height='40'>](https://jellefabbenseth.github.io/JellefAbbenseth/) 
 
