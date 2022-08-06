@@ -42,7 +42,7 @@ export class AboutComponent implements OnInit, DoCheck {
       toolkit: "Meine Toolbox",
       texts: [
         "Hallo, Ich bin ein ergeiziger junior Entwickler und werde mitte September meine Ausbildung als Wirtschaftsinformatiker in Heidelberg abschließen. Derzeit genieße ich meine Reise zum professionellen Entwickler mit verschiedenen privaten Projekten und meinem Praktikum als Softwareentwickler in Karlsruhe.",
-        "Wenn ich nicht gerade programmiere, verbringe ich meine Freizeit mit chinesisch lernen, meditieren oder bin drausen in der Natur. Weiterhin lese und treffe ich mich gerne mit freunden und neuen Menschen um mein Wissen und Horizont zu erweitern, und mein Leben zu genießen."
+        "Wenn ich nicht gerade programmiere, verbringe ich meine Freizeit mit chinesisch lernen, meditieren oder bin drausen in der Natur. Weiterhin lese und treffe ich mich gerne mit Freunden und neuen Menschen um mein Wissen und Horizont zu erweitern, und mein Leben zu genießen."
       ]
     }
   }
