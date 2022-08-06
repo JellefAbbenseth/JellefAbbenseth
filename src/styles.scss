@@ -7,6 +7,10 @@ body {
     overflow-x: hidden; 
 }
 
+.background_img {
+    background-image: url(assets/programming_background.png);
+}
+
 :root {
     /* Blue Theme: https://colorhunt.co/palette/081f375fc9f32e79ba1e549f */
     --black-color: #081F37;
