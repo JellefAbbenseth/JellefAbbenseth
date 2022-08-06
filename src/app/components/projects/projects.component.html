@@ -1,0 +1,23 @@
+<div class="main">
+    <app-navigation></app-navigation>
+    <div class="project_window">
+        <h2>{{ title }}</h2>
+        <div class="project_box">
+            <div class="item box" *ngFor="let projectInfo of projectInformations">
+                <div class="project_info hidden">
+                    <h3>{{ projectInfo["title"] }}</h3>
+                    <p>{{ projectInfo["shortInfo"][language] }}</p>
+                    <div class="languages">
+                        <p class="box" *ngFor="let projectLanguage of getLanguages(projectInfo)">
+                            {{ projectLanguage }}
+                        </p>
+                    </div>
+                    <div class="links">
+                        <a class="box" [href]="link['link']" *ngFor="let link of getLinks(projectInfo)">{{ link["name"]}}</a>
+                    </div>
+                </div>
+                <img [src]="projectInfo['img'][language]" alt='projectInfo["title"]'>
+            </div>
+        </div>
+    </div>
+</div>

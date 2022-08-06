@@ -1,0 +1,158 @@
+.main {
+    background-color: black;
+
+    min-height: 100vh;
+    width: 100vw;
+    color: var(--navy-color);
+
+    h2 {
+        max-width: 350px;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 54px;
+        border-top: 5px solid var(--black-color);
+        border-bottom: 5px solid var(--black-color);
+        background-color: var(--cold-color);
+        border-radius: 20px;
+        padding: 10px;
+        margin-bottom: 2vh;
+    }
+
+    .box {
+        border-top: 2.5px solid var(--black-color);
+        border-bottom: 2.5px solid var(--black-color);
+        background-color: var(--cold-color);
+        border-radius: 10px;
+        padding: 5px 20px 5px 20px;
+    }
+}
+
+.project_window {
+    max-width: 80vw;
+    margin-left: 10vw;
+    padding: 2vh 0vw 2vh 0vw;
+
+    h3 {
+        font-size: 46px;
+        padding: 50px;
+    }
+
+    p {
+        font-size: 18px;
+        padding: 5px 0px 5px 0px;
+    }
+
+    .project_info {
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        align-items: center;
+    }
+
+    .languages {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        padding: 5px 0px 5px 0px;
+    }
+
+    .languages .box {
+        margin: 5px;
+        color: var(--navy-color);
+        width: fit-content;
+    }
+
+    .links {
+        padding: 30px 0px 5px 0px;
+    }
+
+    .links .box {
+        font-size: 18px;
+        text-decoration: none;
+        margin: 0px 5px 0px 5px;
+        color: var(--navy-color);
+        width: fit-content;
+    }
+
+    .links .box:hover {
+        font-size: 26px;
+    }
+    
+    .project_box {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: space-around;
+        align-items: center;
+    }
+
+
+    .item {
+        padding: 10px;
+        text-align: center;
+        position: relative;
+        margin: 3vh 0.5vw 3vh 0.5vw;
+    }
+
+    .item img {
+        height: 400px;
+        background: transparent;
+        z-index: 1;
+    }
+
+    .hidden {
+        font-size: 50px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        visibility: hidden;
+    }
+
+    .item:hover .hidden {
+        visibility: visible;
+        background-color: var(--black-color);
+        filter: opacity(.8);
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        color: var(--cold-color);
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .project_window {
+        max-width: 100vw;
+
+        .item img {
+            height: auto;
+            width: 70vw;
+        }
+
+        h3 {
+            font-size: 26px;
+            padding: 10px;
+        }
+    
+        p {
+            font-size: 12px;
+            padding: 1px;
+        }
+    
+        .languages {
+            padding: 1px;
+        }
+    
+        .languages .box {
+            margin: 1px;
+            color: var(--navy-color);
+            width: fit-content;
+        }
+    
+        .links {
+            padding: 3px;
+        }
+    }
+}

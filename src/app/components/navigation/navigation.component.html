@@ -1,0 +1,14 @@
+<div class="nav">
+    <div class="nav_list">
+        <ul>
+            <li class="linked" routerLink="/">Home</li>
+            <li class="linked shown" routerLink="/about">{{ about_text }}</li>
+            <li class="linked shown" routerLink="/projects">{{ project_text }}</li>
+        </ul>
+    </div>
+    <div class="languages">
+        <p class="hidden">{{ language | titlecase }}</p>
+        <a class="shown" (click)="onEng()"><img [src]=engImage alt="English"></a>
+        <a class="shown" (click)="onGer()"><img [src]=gerImage alt="German"></a>
+    </div>
+</div>

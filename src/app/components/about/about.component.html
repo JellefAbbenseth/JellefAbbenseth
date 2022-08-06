@@ -1,0 +1,47 @@
+<div class="main">
+    <app-navigation></app-navigation>
+    <div class="about_box">
+        <div class="portrait box">
+            <img [src]="portraitImg" alt="">
+        </div>
+        <div class="content">
+            <h2>{{ title_about }}  👩‍💻</h2>
+            <div class="content_box box">
+                <p *ngFor="let text of texts">{{ text }}</p>
+            </div>
+        </div>
+    </div>
+    <div class="toolkit_box">
+        <h2>{{ title_toolkit }} 💻</h2>
+        <div class="item_box box">
+            <div class="item">
+                <p class="hidden">Python</p>
+                <img [src]=pythonImage alt='Python'>
+            </div>
+            <div class="item">
+                <p class="hidden">Java</p>
+                <img [src]=javaImage alt='Java'>
+            </div>
+            <div class="item">
+                <p class="hidden">Angular</p>
+                <img [src]=angularImage alt='Angular'>
+            </div>
+            <div class="item">
+                <p class="hidden">SQLite</p>
+                <img [src]=sqliteImage alt='SQLite'>
+            </div>
+            <div class="item">
+                <p class="hidden">MySQL</p>
+                <img [src]=mysqlImage alt='MySQL'>
+            </div>
+            <div class="item">
+                <p class="hidden">Github</p>
+                <img [src]=githubImage alt='Github'>
+            </div>
+            <div class="item">
+                <p class="hidden">Gitlab</p>
+                <img [src]=gitlabImage alt='Gitlab'>
+            </div>
+        </div>
+    </div>
+</div>
