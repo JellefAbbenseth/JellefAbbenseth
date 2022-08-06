@@ -7,7 +7,7 @@ interface ProjectInformaiton {
   shortInfo: Record<string, string>;
   languages: string[];
   links: Links[];
-  img: string;
+  img: Record<string, string>;
 }
 
 interface Links {
@@ -25,6 +25,7 @@ export class ProjectsComponent implements OnInit, DoCheck {
   growthV2Image = "/assets/project-photos/growthV2.jpg"
   growthImage = "/assets/project-photos/growth.jpg"
   portfolioImage = "/assets/project-photos/portfolio_mainpage.jpg" 
+  portfolioImageGer = "/assets/project-photos/portfolio_mainpage_ger.jpg" 
   
   title = "Projects"
   language = "eng"
@@ -44,7 +45,10 @@ export class ProjectsComponent implements OnInit, DoCheck {
           link: "https://github.com/JellefAbbenseth/schoolProject"
         }
       ],
-      img: this.schoolProjectImage,
+      img: {
+        "eng": this.schoolProjectImage,
+        "de": this.schoolProjectImage,
+      },
     },
     {
       title: "GrowthV2",
@@ -59,7 +63,10 @@ export class ProjectsComponent implements OnInit, DoCheck {
           link: "https://github.com/JellefAbbenseth/Software-playground/tree/main/Intermediate/Java/GrowthV2"
         }
       ],
-      img: this.growthV2Image,
+      img: {
+        "eng": this.growthV2Image,
+        "de": this.growthV2Image,
+      },
     },
     {
       title: "Growth",
@@ -74,7 +81,10 @@ export class ProjectsComponent implements OnInit, DoCheck {
           link: "https://github.com/JellefAbbenseth/Software-playground/tree/main/Simple/Java/Growth"
         }
       ],
-      img: this.growthImage,
+      img: {
+        "eng": this.growthImage,
+        "de": this.growthImage,
+      },
     },
     {
       title: "Portfolio",
@@ -89,7 +99,10 @@ export class ProjectsComponent implements OnInit, DoCheck {
           link: "https://github.com/JellefAbbenseth/JellefAbbenseth"
         }
       ],
-      img: this.portfolioImage
+      img: {
+        "eng": this.portfolioImage,
+        "de": this.portfolioImageGer,
+      },
     },
   ]
   
@@ -109,11 +122,9 @@ export class ProjectsComponent implements OnInit, DoCheck {
   setTexts() {
     if(this.language == "eng") {
       this.title = "Projects"
-      this.projectInformations[3]["img"] = "/assets/project-photos/portfolio_mainpage.jpg"
     }
     else {
       this.title = "Projekte"
-      this.projectInformations[3]["img"] = "/assets/project-photos/portfolio_mainpage_ger.jpg"
     }
   }
 

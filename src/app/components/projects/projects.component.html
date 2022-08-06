@@ -16,7 +16,7 @@
                         <a class="box" [href]="link['link']" *ngFor="let link of getLinks(projectInfo)">{{ link["name"]}}</a>
                     </div>
                 </div>
-                <img [src]="projectInfo['img']" alt='projectInfo["title"]'>
+                <img [src]="projectInfo['img'][language]" alt='projectInfo["title"]'>
             </div>
         </div>
     </div>
