@@ -14,16 +14,16 @@ interface Information {
   styleUrls: ['./about.component.scss']
 })
 export class AboutComponent implements OnInit, DoCheck {
-  pythonImage = "/assets/logos/python_logo.png"
-  javaImage = "/assets/logos/java_logo.png"
-  angularImage = "/assets/logos/angular_logo.png"
-  mysqlImage = "/assets/logos/mysql_logo.png"
-  sqliteImage = "/assets/logos/sqlite_logo.png"
-  githubImage = "/assets/logos/github_logo.png"
-  gitlabImage = "/assets/logos/gitlab_logo.png"
+  pythonImage = "./assets/logos/python_logo.png"
+  javaImage = "./assets/logos/java_logo.png"
+  angularImage = "./assets/logos/angular_logo.png"
+  mysqlImage = "./assets/logos/mysql_logo.png"
+  sqliteImage = "./assets/logos/sqlite_logo.png"
+  githubImage = "./assets/logos/github_logo.png"
+  gitlabImage = "./assets/logos/gitlab_logo.png"
+  portraitImg = "./assets/jellef_abbenseth.jpg"
 
   language = "eng"
-  portraitImg = "/assets/jellef_abbenseth.jpg"
   title_about = "About me"
   title_toolkit = "My Toolkit"
   texts: string[] = []

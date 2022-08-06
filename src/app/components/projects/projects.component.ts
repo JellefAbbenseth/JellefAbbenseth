@@ -21,11 +21,16 @@ interface Links {
   styleUrls: ['./projects.component.scss']
 })
 export class ProjectsComponent implements OnInit, DoCheck {
-  schoolProjectImage = "/assets/project-photos/Home_User.jpg"
-  growthV2Image = "/assets/project-photos/growthV2.jpg"
-  growthImage = "/assets/project-photos/growth.jpg"
-  portfolioImage = "/assets/project-photos/portfolio_mainpage.jpg" 
-  portfolioImageGer = "/assets/project-photos/portfolio_mainpage_ger.jpg" 
+  schoolProjectImage = "./assets/project-photos/Home_User.jpg"
+  growthV2Image = "./assets/project-photos/growthV2.jpg"
+  growthImage = "./assets/project-photos/growth.jpg"
+  portfolioImage = "./assets/project-photos/portfolio_mainpage.jpg" 
+  portfolioImageGer = "./assets/project-photos/portfolio_mainpage_ger.jpg" 
+
+  shoolProjectGithub = "https://github.com/JellefAbbenseth/schoolProject"
+  growthV2Github = "https://github.com/JellefAbbenseth/Software-playground/tree/main/Intermediate/Java/GrowthV2"
+  growthGithub = "https://github.com/JellefAbbenseth/Software-playground/tree/main/Simple/Java/Growth"
+  portfolioGithub = "https://github.com/JellefAbbenseth/JellefAbbenseth"
   
   title = "Projects"
   language = "eng"
@@ -42,7 +47,7 @@ export class ProjectsComponent implements OnInit, DoCheck {
       links: [
         {
           name: "GITHUB",
-          link: "https://github.com/JellefAbbenseth/schoolProject"
+          link: this.shoolProjectGithub,
         }
       ],
       img: {
@@ -60,7 +65,7 @@ export class ProjectsComponent implements OnInit, DoCheck {
       links: [
         {
           name: "GITHUB",
-          link: "https://github.com/JellefAbbenseth/Software-playground/tree/main/Intermediate/Java/GrowthV2"
+          link: this.growthV2Github,
         }
       ],
       img: {
@@ -78,7 +83,7 @@ export class ProjectsComponent implements OnInit, DoCheck {
       links: [
         {
           name: "GITHUB",
-          link: "https://github.com/JellefAbbenseth/Software-playground/tree/main/Simple/Java/Growth"
+          link: this.growthGithub,
         }
       ],
       img: {
@@ -96,7 +101,7 @@ export class ProjectsComponent implements OnInit, DoCheck {
       links: [
         {
           name: "GITHUB",
-          link: "https://github.com/JellefAbbenseth/JellefAbbenseth"
+          link: this.portfolioGithub,
         }
       ],
       img: {
