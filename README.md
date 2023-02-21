@@ -1,6 +1,6 @@
 # Hi there 👋
 
-I'm Jellef from Germany, and I'm studying information systems in Heidelberg and working as an intern full-stack-developer in Karlsruhe. I really enjoy learning languages like Python and Java.
+I'm Jellef from Germany and completed my training in information systems in Heidelberg in autumn 2022. Currently advancing my programming skills with various projects and courses and therefore I really enjoy learning languages like Python and Java.
 
 
 ## Skills and experience
