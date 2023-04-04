@@ -21,6 +21,8 @@ I'm Jellef from Germany and completed my training in information systems in Heid
 [<img src="https://github.com/JellefAbbenseth/Software-playground/blob/main/Intermediate/Java/GrowthV2/Dokumentation/Bilder/Startbildschirm_ohneSpielstand.jpg" height="200" />](https://github.com/JellefAbbenseth/Software-playground/tree/main/Intermediate/Java/GrowthV2)
 [<img src="https://github.com/JellefAbbenseth/JellefAbbenseth/blob/main/src/assets/project-photos/portfolio_mainpage.jpg" height="200" />](https://jellefabbenseth.github.io/JellefAbbenseth/)
 
+<!--
 ## Overview
 [![Anurag's_github_stats](https://github-readme-stats.vercel.app/api?username=JellefAbbenseth)](https://github.com/anuraghazra/github-readme-stats)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JellefAbbenseth&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+-->
