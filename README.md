@@ -1,6 +1,6 @@
 # Hi there 👋
 
-I'm Jellef from Germany and completed my training in information systems in Heidelberg in autumn 2022. Currently advancing my programming skills with various projects and courses and therefore I really enjoy learning languages like Python and Java.
+I'm Jellef from Germany and am currently working as a Software Developer in Karlsruhe. In my free time I'm advancing my programming skills with various projects and courses and therefore I really enjoy learning languages like Python and Java.
 
 
 ## Skills and experience
