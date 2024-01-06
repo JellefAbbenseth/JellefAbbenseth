@@ -33,16 +33,18 @@ export class AboutComponent implements OnInit, DoCheck {
       about: "About me",
       toolkit: "My Toolkit",
       texts: [
-        "Hello, I'm an aspiring junior developer and am going to graduate my studies of information systems in Heidelberg around mid september 2022. I'm currently enjoying my journey to be a professional developer through different private projects and my internship as a full-stack-developer in Karlsruhe.",
-        "Other than coding, I spend most of my free time learning chinese, meditating or staying in nature. I also like reading and meeting friends and new people to broaden my knowledge, mind and to have a good time enjoying live."
+        "Hi there 👋, ",
+        "I’m a growing software developer and data scientist. Currently happily and satisfied working as a junior software developer in Karlsruhe with a great team on Identity Management Systems. During my free time I’m working on different projects to expand my developer and data science skills. I really love to see my skills growing over time.",
+        "Other than coding, I spend most of my free time learning Chinese, meditating, doing sports, meeting friends or staying in nature. It’s great to have such different experiences. Therefore, I love to meet different people, my friends or just broaden my knowledge and horizons while enjoying my life."
       ]
     },
     "de": {
       about: "Über mich",
       toolkit: "Meine Toolbox",
       texts: [
-        "Hallo, Ich bin ein ergeiziger junior Entwickler und werde mitte September meine Ausbildung als Wirtschaftsinformatiker in Heidelberg abschließen. Derzeit genieße ich meine Reise zum professionellen Entwickler mit verschiedenen privaten Projekten und meinem Praktikum als Softwareentwickler in Karlsruhe.",
-        "Wenn ich nicht gerade programmiere, verbringe ich meine Freizeit mit chinesisch lernen, meditieren oder bin drausen in der Natur. Weiterhin lese und treffe ich mich gerne mit Freunden und neuen Menschen um mein Wissen und Horizont zu erweitern, und mein Leben zu genießen."
+        "Hi 👋, ",
+        "Ich bin ein wachsender Softwareentwickler und Data Scientist. Derzeit arbeite ich glücklich und zufrieden als Junior-Softwareentwickler in Karlsruhe mit einem tollen Team im Bereich Identity Management Systems. In meiner Freizeit programmiere ich verschiedene Projekte, um meine Entwickler- und Datenwissenschaftskenntnisse zu erweitern. Ich liebe es zu sehen, wie meine Fähigkeiten mit der Zeit wachsen.",
+        "Abgesehen vom Programmieren verbringe ich den Großteil meiner Freizeit damit, Chinesisch zu lernen, zu meditieren, Sport zu treiben, Freunde zu treffen oder mich in der Natur aufzuhalten. Es ist spannend, solch unterschiedliche Erfahrungen zu machen. Deshalb liebe ich es, andere Menschen kennenzulernen und Freunde zu treffen oder einfach mein Wissen und meinen Horizont zu erweitern und gleichzeitig mein Leben zu genießen."
       ]
     }
   }
