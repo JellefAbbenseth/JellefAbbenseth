@@ -6,6 +6,7 @@ I'm Jellef from Germany and am currently working as a Software Developer in Karl
 ## Skills and experience
 * <img src= "https://github.com/JellefAbbenseth/JellefAbbenseth/blob/main/src/assets/logos/python_logo.png" width = 25> Python
 * <img src= "https://github.com/JellefAbbenseth/JellefAbbenseth/blob/main/src/assets/logos/java_logo.png" width = 25> Java
+<!-- Need to update the Skills and experiences -->
 * <img src= "https://github.com/JellefAbbenseth/JellefAbbenseth/blob/main/src/assets/logos/angular_logo.png" width = 25>  Angular, HTML, SCSS, Typescript
 
 ## Connect with me
