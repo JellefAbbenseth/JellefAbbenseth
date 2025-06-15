@@ -1,0 +1,37 @@
+{
+  "languages": {
+    "EN": {
+      "index": {
+        "title": "Hello! I'm X. \uD83D\uDC4B,",
+        "subtitle": "Welcome to my site!"
+      },
+      "about_me": {
+        "intro": "Hi there \uD83D\uDC4B,",
+        "bio": "I'm a developer working on cool projects."
+      }
+    },
+    "DE": {
+      "index": {
+        "title": "Hallo! Ich bin X. \uD83D\uDC4B,",
+        "subtitle": "Willkommen auf meiner Seite!"
+      },
+      "about_me": {
+        "intro": "Hallo zusammen \uD83D\uDC4B,",
+        "bio": "Ich bin ein Entwickler, der an coolen Projekten arbeitet."
+      }
+    }
+  },
+  "links": {
+    "internal": [
+      { "text": "About Me", "url": "about" },
+      { "text": "Projects", "url": "/projects" }
+    ],
+    "external": [
+      { "icon":  "/svgs/github.svg", "text": "GitHub", "url": "https://github.com/JellefAbbenseth" },
+      { "icon":  "/svgs/linkedIn.svg", "text": "linkedIn", "url": "https://www.linkedin.com/in/jellef-abbenseth" }
+    ]
+  },
+  "images": {
+    "profile": "/pictures/profile.jpg"
+  }
+}
