@@ -2,8 +2,7 @@
   "languages": {
     "EN": {
       "index": {
-        "title": "Hello! I'm X. \uD83D\uDC4B,",
-        "subtitle": "Welcome to my site!"
+        "title": "Hello! I'm Jellef. \uD83D\uDC4B,"
       },
       "about_me": {
         "intro": "Hi there \uD83D\uDC4B,",
@@ -12,8 +11,7 @@
     },
     "DE": {
       "index": {
-        "title": "Hallo! Ich bin X. \uD83D\uDC4B,",
-        "subtitle": "Willkommen auf meiner Seite!"
+        "title": "Hallo! Ich bin Jellef. \uD83D\uDC4B,"
       },
       "about_me": {
         "intro": "Hallo zusammen \uD83D\uDC4B,",

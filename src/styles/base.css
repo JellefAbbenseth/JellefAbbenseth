@@ -1,0 +1,25 @@
+/* base.css */
+
+:root {
+  --black-color: #081F37;
+  --navy-color: #1E549F;
+  --blue-color: #2E79BA;
+  --cold-color: #5FC9F3;
+  --text-color: #ffffff;
+  --font-family: 'Segoe UI', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--black-color);
+  font-family: var(--font-family);
+  overflow-x: hidden;
+  color: var(--text-color);
+}
