@@ -1,3 +1,4 @@
+// Todo: Update this file to include all the texts from my website and make it multilingual.
 {
   "languages": {
     "EN": {
@@ -21,12 +22,26 @@
   },
   "links": {
     "internal": [
-      { "text": "About Me", "url": "about" },
-      { "text": "Projects", "url": "/projects" }
+      {
+        "text": "About Me",
+        "url": "about"
+      },
+      {
+        "text": "Projects",
+        "url": "/projects"
+      }
     ],
     "external": [
-      { "icon":  "/svgs/github.svg", "text": "GitHub", "url": "https://github.com/JellefAbbenseth" },
-      { "icon":  "/svgs/linkedIn.svg", "text": "linkedIn", "url": "https://www.linkedin.com/in/jellef-abbenseth" }
+      {
+        "icon": "/svgs/github.svg",
+        "text": "GitHub",
+        "url": "https://github.com/JellefAbbenseth"
+      },
+      {
+        "icon": "/svgs/linkedIn.svg",
+        "text": "linkedIn",
+        "url": "https://www.linkedin.com/in/jellef-abbenseth"
+      }
     ]
   },
   "images": {
