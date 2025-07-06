@@ -1,9 +1,11 @@
-// Todo: Update this file to include all the texts from my website and make it multilingual.
 {
   "languages": {
     "EN": {
       "index": {
-        "title": "Hello! I'm Jellef. \uD83D\uDC4B,"
+        "title": "Hello! I'm Jellef. \uD83D\uDC4B,",
+        "about": "About Me",
+        "projects": "Projects",
+        "contact": "Contact:"
       },
       "about_me": {
         "intro": "Hi there \uD83D\uDC4B,",
@@ -12,7 +14,10 @@
     },
     "DE": {
       "index": {
-        "title": "Hallo! Ich bin Jellef. \uD83D\uDC4B,"
+        "title": "Hallo! Ich bin Jellef. \uD83D\uDC4B,",
+        "about": "Über mich",
+        "projects": "Projekte",
+        "contact": "Kontakt:"
       },
       "about_me": {
         "intro": "Hallo zusammen \uD83D\uDC4B,",
@@ -23,11 +28,11 @@
   "links": {
     "internal": [
       {
-        "text": "About Me",
+        "text": "about",
         "url": "about"
       },
       {
-        "text": "Projects",
+        "text": "projects",
         "url": "/projects"
       }
     ],

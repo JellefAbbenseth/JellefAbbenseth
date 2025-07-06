@@ -45,14 +45,18 @@ const Index = () => {
 
 	  <div className="nav">
 		  <ul className="nav-links">
-			{links?.internal?.map((link, index) => (
+			{links?.internal?.map((link, index) => {
+              const labelKey = link.text.toLowerCase();
+              const label = content?.[labelKey] || link.text;
+              return (
 			  <li key={index}>
-				<a href={link.url}>{link.text}</a>
+				<a href={link.url}>{label}</a>
 			  </li>
-			))}
+			  );
+			})}
 		  </ul>
 
-		  <p className="connect-heading">Connect with me:</p>
+		  <p className="connect-heading">{content?.contact || "Contact:"}</p>
 
           <ul>
               {links?.external?.map((link, index) => (
