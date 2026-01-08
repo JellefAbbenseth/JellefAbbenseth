@@ -1,9 +1,11 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
 
-const baseUrl = process.env.GITHUB_PAGES ? '/JellefAbbenseth/' : '/';
+export default defineConfig(({ mode: _mode }) => {
+    const isGithubPages = process.env.VITE_GITHUB_PAGES === 'true'
 
-export default defineConfig({
-  base: baseUrl,
-  plugins: [react()],
+    return {
+        base: isGithubPages ? '/JellefAbbenseth/' : '/',
+        plugins: [react()],
+    }
 });

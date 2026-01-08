@@ -2,11 +2,28 @@ import { useState, useEffect } from "react";
 import '../styles/base.css';
 import './Index.css';
 
+interface Content {
+    title?: string;
+    contact?: string;
+    [key: string]: any;
+}
+
+interface LinkItem {
+    text: string;
+    url: string;
+    icon?: string;
+}
+
+interface Links {
+    internal?: LinkItem[];
+    external?: LinkItem[];
+}
+
 const Index = () => {
   const [language, setLanguage] = useState(localStorage.getItem("language") || "EN");
-  const [content, setContent] = useState(null);
-  const [links, setLinks] = useState(null);
-  const [images, setImages] = useState(null);
+  const [content, setContent] = useState<Content | null>(null);
+  const [links, setLinks] = useState<Links | null>(null);
+  const [_images, setImages] = useState<any>(null);
 
   useEffect(() => {
 	fetch("/texts.json")
@@ -26,7 +43,7 @@ const Index = () => {
 	  });
   }, [language]);
 
-  const changeLanguage = (lang) => {
+  const changeLanguage = (lang: string) => {
 	setLanguage(lang);
 	localStorage.setItem("language", lang);
   };
