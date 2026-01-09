@@ -7,9 +7,14 @@
         "projects": "Projects",
         "contact": "Contact:"
       },
-      "about_me": {
-        "intro": "Hi there \uD83D\uDC4B,",
-        "bio": "I'm a developer working on cool projects."
+      "about": {
+        "title_about": "About Me",
+        "texts": [
+          "Hi there 👋, I'm a developer working on cool projects.",
+          "I enjoy building systems, learning new technologies, and creating clean architectures.",
+          "My focus is on long-term maintainability and elegant solutions."
+        ],
+        "title_toolkit": "My Toolkit"
       }
     },
     "DE": {
@@ -19,9 +24,14 @@
         "projects": "Projekte",
         "contact": "Kontakt:"
       },
-      "about_me": {
-        "intro": "Hallo zusammen \uD83D\uDC4B,",
-        "bio": "Ich bin ein Entwickler, der an coolen Projekten arbeitet."
+      "about": {
+        "title_about": "Über mich",
+        "texts": [
+          "Hallo zusammen 👋, ich bin ein Entwickler, der an spannenden Projekten arbeitet.",
+          "Ich liebe es, Systeme zu bauen, neue Technologien zu lernen und saubere Architekturen zu entwickeln.",
+          "Mein Fokus liegt auf langfristiger Wartbarkeit und eleganten Lösungen."
+        ],
+        "title_toolkit": "Mein Werkzeugkasten"
       }
     }
   },
@@ -29,7 +39,7 @@
     "internal": [
       {
         "text": "about",
-        "url": "about"
+        "url": "/about"
       },
       {
         "text": "projects",
@@ -50,6 +60,16 @@
     ]
   },
   "images": {
-    "profile": "/pictures/profile.jpg"
+    "profile": "/pictures/profile.jpg",
+    "about": {
+      "portrait": "/jpg/jellef_abbenseth.jpg",
+      "python": "/png/python_logo.png",
+      "java": "/png/java_logo.png",
+      "angular": "/png/angular_logo.png",
+      "sqlite": "/png/sqlite_logo.png",
+      "mysql": "/png/mysql_logo.png",
+      "github": "/png/github_logo.png",
+      "gitlab": "/png/gitlab_logo.png"
+    }
   }
 }
