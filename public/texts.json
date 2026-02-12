@@ -70,6 +70,10 @@
       "mysql": "/png/mysql_logo.png",
       "github": "/png/github_logo.png",
       "gitlab": "/png/gitlab_logo.png"
+    },
+    "flags": {
+      "eng": "/png/uk_flag.png",
+      "ger": "/png/germany_flag.png"
     }
   }
 }

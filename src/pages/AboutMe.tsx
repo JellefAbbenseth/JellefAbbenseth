@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "./AboutMe.css";
+import Navigation from "./Navigation";
 
 interface AboutContent {
   title_about?: string;
@@ -34,44 +35,47 @@ const AboutMe = () => {
   }, [language]);
 
   return (
-    <div className="main">
-      <div className="about_box">
-        <div className="portrait box">
-          <img src={images.portrait} alt="Portrait" />
-        </div>
+    <>
+        <Navigation />
+        <div className="main">
+          <div className="about_box">
+            <div className="portrait box">
+              <img src={images.portrait} alt="Portrait" />
+            </div>
 
-        <div className="content">
-          <h2>{content.title_about} 👩‍💻</h2>
+            <div className="content">
+              <h2>{content.title_about} 👩‍💻</h2>
 
-          <div className="content_box box">
-            {content.texts?.map((text, index) => (
-              <p key={index}>{text}</p>
-            ))}
+              <div className="content_box box">
+                {content.texts?.map((text, index) => (
+                  <p key={index}>{text}</p>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          <div className="toolkit_box">
+            <h2>{content.title_toolkit} 💻</h2>
+
+            <div className="item_box box">
+              {[
+                { src: images.python, label: "Python" },
+                { src: images.java, label: "Java" },
+                { src: images.angular, label: "Angular" },
+                { src: images.sqlite, label: "SQLite" },
+                { src: images.mysql, label: "MySQL" },
+                { src: images.github, label: "Github" },
+                { src: images.gitlab, label: "Gitlab" },
+              ].map((item, index) => (
+                <div className="item" key={index}>
+                  <p className="hidden">{item.label}</p>
+                  <img src={item.src} alt={item.label} />
+                </div>
+              ))}
+            </div>
           </div>
         </div>
-      </div>
-
-      <div className="toolkit_box">
-        <h2>{content.title_toolkit} 💻</h2>
-
-        <div className="item_box box">
-          {[
-            { src: images.python, label: "Python" },
-            { src: images.java, label: "Java" },
-            { src: images.angular, label: "Angular" },
-            { src: images.sqlite, label: "SQLite" },
-            { src: images.mysql, label: "MySQL" },
-            { src: images.github, label: "Github" },
-            { src: images.gitlab, label: "Gitlab" },
-          ].map((item, index) => (
-            <div className="item" key={index}>
-              <p className="hidden">{item.label}</p>
-              <img src={item.src} alt={item.label} />
-            </div>
-          ))}
-        </div>
-      </div>
-    </div>
+    </>
   );
 };
 
